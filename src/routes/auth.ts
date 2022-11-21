@@ -1,7 +1,8 @@
-import { prisma } from "@prisma/client";
+import { prisma } from "../lib/prisma";
 import { FastifyInstance } from "fastify";
 import { z } from "zod";
 import { authenticate } from "../plugins/authenticate";
+import fetch from "node-fetch";
 
 export async function authRoutes(fastify : FastifyInstance){
     fastify.get('/me',{
@@ -47,7 +48,7 @@ export async function authRoutes(fastify : FastifyInstance){
                     googleId: userInfo.id,
                     email: userInfo.email,
                     name: userInfo.name,
-                    picture: userInfo.picture
+                    avatarUrl: userInfo.picture
                 }
             })
         }

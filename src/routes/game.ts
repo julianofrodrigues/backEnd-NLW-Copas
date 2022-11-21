@@ -1,7 +1,8 @@
-import { prisma } from "@prisma/client";
+import { prisma } from "../lib/prisma";
 import { FastifyInstance } from "fastify";
 import { z } from "zod";
 import { authenticate } from "../plugins/authenticate";
+
 
 export async function gameRoutes(fastify : FastifyInstance){
     fastify.get('/pools/:id/games', 
