@@ -2,8 +2,8 @@
 
 # Project Summary
 Back-end of the NLW Cups project, where you can control registered games, pools and predictions😎 <br>
-The front-end is at this repository: come here! <br>
-The mobile project is in this other repository: come here!
+The front-end is at this repository: https://github.com/julianofrodrigues/frontEnd-NLW-Copas <br>
+The mobile project is in this other repository: https://github.com/julianofrodrigues/mobile-NLW-Copas
 ## 📁 Project Access
 To try it is very simple:<br>
 -Clone the repository
