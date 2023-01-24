@@ -42,7 +42,7 @@ Or
 ```bash
 $ npm run dev
 ```
-Ready, now just access the routes via insomnia, postman or any other of your choice. 😁
+Ready, now just access the routes through Insomnia, Postman or any other of your choice. 😁
 ## ✔️ Techniques and technologies used
 - ``JavaScript``
 - ``TypeScript``
